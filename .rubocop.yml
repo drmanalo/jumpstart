@@ -1,0 +1,86 @@
+AllCops:
+  TargetRubyVersion: 3.0
+  Exclude:
+    - "db/**/*"
+    - "config/**/*"
+    - "node_modules/**/*"
+    - "script/**/*"
+    - "vendor/**/*"
+    - "bin/{bundle,rails,rake}"
+
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - "spec/**/*"
+
+Bundler/OrderedGems:
+  Enabled: true
+
+Metrics/BlockLength:
+  Max: 25
+  Exclude:
+    - "spec/**/*"
+
+Metrics/ClassLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 15
+
+Lint/RescueException:
+  Enabled: true
+
+Style/EmptyElse:
+  EnforcedStyle: empty
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Layout/SpaceInLambdaLiteral:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/NumericLiteralPrefix:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: false
+
+Layout/FirstHashElementIndentation:
+  Enabled: false
+
+Layout/ParameterAlignment:
+  Enabled: false
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: false
+
+Naming/VariableNumber:
+  EnforcedStyle: "snake_case"
+
+Lint/MissingSuper:
+  Enabled: 
+  
