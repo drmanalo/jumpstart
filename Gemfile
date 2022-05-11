@@ -74,6 +74,7 @@ group :test do
   gem "database_cleaner-active_record"
   gem "selenium-webdriver"
   gem "shoulda-matchers"
+  gem "simplecov", require: false
   gem "webdrivers"
 end
 gem "cssbundling-rails"

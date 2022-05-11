@@ -1,5 +1,6 @@
 AllCops:
   TargetRubyVersion: 3.0
+  EnabledByDefault: true
   Exclude:
     - "db/**/*"
     - "config/**/*"
@@ -82,5 +83,5 @@ Naming/VariableNumber:
   EnforcedStyle: "snake_case"
 
 Lint/MissingSuper:
-  Enabled: 
+  Enabled: false
   
